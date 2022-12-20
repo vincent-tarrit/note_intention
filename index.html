@@ -40,6 +40,31 @@
                 <p class="fragment">AngularJS</p>
 
             </section>
+            <section data-background-opacity="0.2" data-background-image="https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-deve-picture-id537331500?b=1&k=20&m=537331500&s=612x612&w=0&h=Ni1xaMtCOiGvH4NKnl7Y4uTMqXEjd8cYwBDDOjk4TKE=">
+                <h1>
+                    Concept
+                </h1>
+                <p class="fragment">Présentation de qui je suis</p>
+                <p class="fragment">Présentation de mes réalisations</p>
+            </section>
+            <section data-background-opacity="0.2" data-background-image="https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-deve-picture-id537331500?b=1&k=20&m=537331500&s=612x612&w=0&h=Ni1xaMtCOiGvH4NKnl7Y4uTMqXEjd8cYwBDDOjk4TKE=">
+                <section>
+                    <h1>
+                        Problématique
+                    </h1>
+                    <p class="fragment">Me présenter en quelques secondes</p>
+                </section>
+                <section>
+                    <img src="dist/images/jecrisvite.png">
+                </section>
+            </section>
+            <section data-background-opacity="0.2" data-background-image="https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-deve-picture-id537331500?b=1&k=20&m=537331500&s=612x612&w=0&h=Ni1xaMtCOiGvH4NKnl7Y4uTMqXEjd8cYwBDDOjk4TKE=">
+                <h1>
+                    Public cible
+                </h1>
+                <p class="fragment">Potentiel employeur</p>
+                <p class="fragment">Potentiel client</p>
+            </section>
         </div>
     </div>
 
@@ -47,6 +72,7 @@
     <script src="plugin/notes/notes.js"></script>
     <script src="plugin/markdown/markdown.js"></script>
     <script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
     <script>
         // More info about initialization & config:
         // - https://revealjs.com/initialization/
@@ -54,10 +80,15 @@
         Reveal.initialize({
             hash: true,
             slideNumber: true,
-            controls: false,
+            controls: true,
             showSlideNumber: 'print',
             // Learn about plugins: https://revealjs.com/plugins/
-            plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+            plugins: [
+                RevealMarkdown,
+                RevealHighlight,
+                RevealNotes,
+                RevealZoom
+            ]
         });
     </script>
 </body>
